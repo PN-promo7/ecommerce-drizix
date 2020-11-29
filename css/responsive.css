@@ -1,0 +1,101 @@
+@media only screen and (min-device-width : 320px) and (max-device-width : 480px) {
+  .container{
+    padding-left: 15px;
+    padding-right: 15px;
+  }
+
+  .container,.main_nav,.sec_categorie img,.w_20{
+    width: 100%;
+  }
+
+  .main_nav .container>.d_flex,.main_nav ul,.txt_area,.sec_categorie .d_flex,.sec_article .container>.d_flex,footer .container>.d_flex {
+    flex-direction: column;
+  }
+
+  .main_nav .icone_nav_pos,.logo_rs_footer{
+    justify-content: space-around;
+  }
+  /*.txt_menu/.icone_nav_pos = affichage ou pas du toogle menu */
+  .txt_menu, .icone_nav_pos,.img_cat_homme,.btn_return_top,.label_mail{
+    display: none;
+  }
+/* ||||||||||||||||||||MENU NAVIGATION|||||||||||||||||||| */
+.main_nav .container>.d_flex{
+  text-align: center;
+}
+
+.main_nav .container>.d_flex,main_nav a{
+  margin: 0;
+}
+
+.main_nav li{
+  padding-bottom: 15px;
+  text-align: left;
+}
+
+.main_nav .icone_nav_pos{
+  flex-direction: row;
+}
+
+.menu_toggle{
+  display: initial;
+  margin-top: 5px;
+  padding: 5px;
+  background-color: white;
+  border-radius: 5px;
+}
+/* ||||||||||||||||||||HEADER|||||||||||||||||||| */
+  header{
+    margin-top: 116px;
+    padding: 200px 0 0 0;
+  }
+
+  .txt_area{
+    display: flex;
+    align-items: center;
+    padding: 10px;
+    border-radius: 25px;
+    background-color: rgba(0, 0, 0, 0.5);
+  }
+/* ||||||||||||||||||||CATEGORIE|||||||||||||||||||| */
+  .overlay_cat{
+    padding: 10px 0;
+    border-radius: 0 0 5px 5px;
+  }
+
+  .img_cat_homme_mobile{
+    display: initial;
+  }
+/* ||||||||||||||||||||ARTICLE|||||||||||||||||||| */
+  article{
+    margin-bottom: 10px;
+  }
+
+/* ||||||||||||||||||||PROMO|||||||||||||||||||| */
+  .promo{
+    background-position: left;
+    padding: 60px 0;
+  }
+
+  .big_txt_promo{
+    font-size: 40px;
+    -webkit-text-stroke: 2px white;
+  }
+
+  .txt_promo{
+    font-size: 20px;
+  }
+/* ||||||||||||||||||||ICONE AVENTAGE|||||||||||||||||||| */
+  .adv_icone span{
+      font-size: 15px;
+  }
+/* ||||||||||||||||||||FOOTER|||||||||||||||||||| */
+  footer a{
+    margin-bottom: 20px;
+  }
+
+  .logo_footer img{
+    width: 50%;
+    margin-bottom: 50px;
+  }
+}
